@@ -1,0 +1,26 @@
+version: "2.0"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+
+- intent: ask_quote
+  examples: |
+    - give me a quote
+    - tell me a quote
+    - I want a quote
+
+- intent: motivation
+  examples: |
+    - motivate me
+    - I need motivation
+    - give me motivational quote
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
